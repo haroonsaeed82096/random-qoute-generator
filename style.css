@@ -15,4 +15,38 @@ body{
     align-items: center;
     justify-content: center;
 }
+.qoute-container{
+    width: auto;
+    max-width: 900px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2)
+}
+.qoute-text{
+    font-size: 2.75rem;
 
+}
+.long-qoute{
+    font-size: 2rem;
+}
+.fa-qoute-left{
+    font-size: 4rem;
+}
+.qoute-author{
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Media Query */
+@media screen and (max-width: 1000px){
+    .qoute-container{
+        margin: auto 15px;
+    }
+
+    .qoute-text{
+        font-size: 2.5rem;
+    }
+}
